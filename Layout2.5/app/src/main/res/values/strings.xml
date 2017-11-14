@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layout2.5</string>
+    <string name="app2_name">Lineal</string>
+    <string name="app3_name">Table</string>
+    <string name="app4_name">Grid</string>
+    <string name="app5_name">Checkbox</string>
+    <string name="pulsar">Linear Layout</string>
+    <string name="pulsar2">Tablet Layout</string>
+    <string name="pulsar3">Relative Layout</string>
+    <string name="pulsar4">Layout Grid</string>
+    <string name="pulsar5">Ejercicio Checkbox</string>
+    <string name="textHobby">Elige tu hobby</string>
+    <string name="pulsar6">Ejercicio Radiobutton</string>
+    <string name="pulsar7">Ejercicio Buttons</string>
+</resources>
