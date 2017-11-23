@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.victo.ejercicioslayout.ButtonsenV">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt3"
+        android:layout_marginBottom="23dp"
+        android:layout_toLeftOf="@id/bt4"
+        android:layout_toStartOf="@id/bt4"
+        android:text="Button1"/>
+    
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/bt1"
+        android:layout_alignBottom="@id/bt1"
+        android:layout_toEndOf="@id/bt3"
+        android:layout_toRightOf="@id/bt3"
+        android:text="Button2"/>
+    
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt5"
+        android:layout_alignEnd="@id/bt5"
+        android:layout_alignRight="@id/bt5"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="Button3"/>
+    
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/bt3"
+        android:layout_alignBottom="@id/bt3"
+        android:layout_alignLeft="@id/bt5"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:text="Button4"/>
+    
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Button5"/>
+
+</RelativeLayout>

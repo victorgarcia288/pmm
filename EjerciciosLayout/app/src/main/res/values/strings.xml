@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjerciciosLayout</string>
+    <string name="pulsar">Radiobuttons colores</string>
+    <string name="pulsar2">Buttons Colores</string>
+    <string name="app_name2">Radiobuttons Colores</string>
+    <string name="bt">Set Color</string>
+    <string name="bt2">Cancel</string>
+    <string name="app_name3">Buttons Colores</string>
+    <string name="title_activity_buttons_colores">ButtonsColores</string>
+</resources>
