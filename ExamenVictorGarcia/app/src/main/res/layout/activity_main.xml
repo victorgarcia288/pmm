@@ -5,41 +5,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.victeb.examenvictorgarcia.MainActivity">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pending"
-        android:gravity="center"
-        android:textColor="#FFAA00CC"
-        android:textSize="22dp"
-        android:typeface="serif"/>
-
-    <TextView
-        android:id="@android:id/empty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lstNoElements"/>
+    tools:context="com.example.victo.examenvictorgarcia.MainActivity">
 
     <ListView
-        android:id="@android:id/list"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
+    android:id="@android:id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="32dp">
     </ListView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100px"
-        android:text="TAREAS DE ::::::::"
-        android:gravity="center_horizontal"/>
-
     <FrameLayout
-        android:id="@+id/fragmentshow"
+        android:id="@+id/fragmentShow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:text="Fragmento">
     </FrameLayout>
 
 </LinearLayout>

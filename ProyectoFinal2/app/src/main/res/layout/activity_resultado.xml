@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victo.proyectofinal2.Resultado">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/pizzaLB"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:id="@+id/pizzaLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/precioLB"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/precioLB"
+        android:layout_marginTop="70dp"
+        android:text="Pizza:"/>
+
+    <TextView
+        android:id="@+id/pizzaTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/precioLB"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_toEndOf="@+id/unidadesLB"
+        android:layout_toRightOf="@+id/unidadesLB"/>
+
+    <TextView
+        android:id="@+id/precioLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/extraLB"
+        android:layout_alignStart="@+id/extraLB"
+        android:layout_below="@id/pizzaLB"
+        android:layout_marginTop="23dp"
+        android:text="Precio Base:"/>
+
+    <TextView
+        android:id="@+id/precioTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/precioLB"
+        android:layout_alignBottom="@id/precioLB"
+        android:layout_alignLeft="@+id/pizzaTV"
+        android:layout_alignStart="@+id/pizzaTV"/>
+
+    <TextView
+        android:id="@+id/extraLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_alignLeft="@+id/unidadesLB"
+        android:layout_alignStart="@+id/unidadesLB"
+        android:text="Extra"/>
+
+    <TextView
+        android:id="@+id/extraTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/precioTV"
+        android:layout_alignStart="@id/precioTV"
+        android:layout_below="@id/precioTV"
+        android:layout_marginTop="31dp"/>
+    <TextView
+        android:id="@+id/unidadesTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/unidadesLB"
+        android:layout_alignBottom="@id/unidadesLB"
+        android:layout_alignLeft="@id/extraTV"
+        android:layout_alignStart="@id/extraTV"/>
+
+    <TextView
+        android:id="@+id/envioLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/extraLB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="Envio:"/>
+
+    <TextView
+        android:id="@+id/envioTV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/envioLB"
+        android:layout_alignBottom="@id/envioLB"
+        android:layout_alignLeft="@id/unidadesTV"
+        android:layout_alignStart="@id/unidadesTV"/>
+
+    <TextView
+        android:id="@+id/costeTotalLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="TOTAL:"
+        android:layout_below="@id/envioLB"
+        android:layout_alignLeft="@id/envioLB"
+        android:layout_alignStart="@id/envioLB"/>
+
+    <TextView
+        android:id="@+id/costeTotalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/envioTV"
+        android:layout_alignLeft="@+id/envioTV"
+        android:layout_alignRight="@+id/envioTV"
+        android:layout_alignStart="@+id/envioTV"
+        android:layout_alignTop="@+id/costeTotalLB"/>
+
+
+</RelativeLayout>
